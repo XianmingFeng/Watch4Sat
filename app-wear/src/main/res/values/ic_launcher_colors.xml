@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Static fallback roles generated from the approved brand seeds using Material 3 HCT. -->
+    <color name="launcher_icon_surface">#FCFCFF</color>
+    <color name="launcher_icon_primary">#4285F4</color>
+    <color name="launcher_icon_tertiary">#FBBC04</color>
+</resources>

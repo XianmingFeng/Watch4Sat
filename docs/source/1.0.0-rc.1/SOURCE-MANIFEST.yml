@@ -1,0 +1,8 @@
+status: PRE_RELEASE_ACCEPTED_SOURCE
+source_label: R2
+private_accepted_source_commit: 39123087e203bdef43060d5da5bc42765b52f646
+version_name: 0.19.3
+version_code: 128
+archive: Watch4Sat-accepted-source-39123087.tar.gz
+archive_sha256: 5e07db9682b035752ea9782082456ff059de8a23f5f10c425caddbc5b3a653c4
+supersession: The final 1.0.0-rc.1 / 129 source will replace or supersede this accepted-source archive before binary distribution.

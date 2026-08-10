@@ -1,0 +1,56 @@
+# Public, recipient-buildable corresponding source for Watch4Sat releases.
+#
+# Entries are exact tracked files or directory roots. The exporter rejects
+# glob syntax, overlapping entries, symlinks, submodules, private evidence
+# paths, and local machine or device identifiers before creating an archive.
+
+# Public project and license material.
+README.md
+.gitignore
+LICENSE
+NOTICE
+
+# Gradle build definition and wrapper.
+build.gradle.kts
+settings.gradle.kts
+gradle.properties
+gradlew
+gradle
+
+# Application production/debug source, resources, shrinker rules, and saved
+# Baseline Profiles. Internal release-engineering tests remain private.
+app-wear/build.gradle.kts
+app-wear/proguard-rules.pro
+app-wear/src/main
+app-wear/src/debug
+app-wear/src/release
+
+# Baseline Profile generator and runtime benchmark source used by the build.
+benchmark/build.gradle.kts
+benchmark/src/main
+
+# Data/domain production source and versioned Room migration schemas.
+core-data/build.gradle.kts
+core-data/schemas
+core-data/src/main
+core-data/src/test
+core-domain/build.gradle.kts
+core-domain/src/main
+core-domain/src/test
+
+# Public build, dependency-license, and release identity configuration.
+config/allowed-dependency-licenses.json
+config/bundletool.properties
+config/release-identity.properties
+config/public-source-allowlist.txt
+
+# Editable legal sources and complete third-party notices.
+docs/privacy-policy.md
+docs/licenses
+
+# Recipient build environment, asset-generation, and source-export tooling.
+# Internal RC signing, evidence, and validation scripts are deliberately not
+# exported because they depend on private release-state inputs.
+scripts/watch4sat-env.sh
+scripts/render_launcher_icon.py
+scripts/export-public-source.sh

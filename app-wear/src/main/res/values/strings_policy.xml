@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tle_status_check_device_time">Check device time</string>
+    <string name="tle_status_device_time_changed">Device time changed</string>
+    <string name="tle_status_age_unknown">TLE age unknown</string>
+    <string name="tle_status_fresh">TLE fresh</string>
+    <string name="tle_status_stale">TLE stale</string>
+    <string name="tle_status_very_stale">TLE very stale</string>
+    <string name="tle_tile_header_default">Watch4Sat</string>
+    <string name="tle_tile_header_check_time">Watch4Sat · Check time</string>
+    <string name="tle_tile_header_age_unknown">Watch4Sat · TLE age?</string>
+    <string name="tle_tile_header_stale">Watch4Sat · TLE stale</string>
+    <string name="tle_tile_header_very_stale">Watch4Sat · TLE 7d+</string>
+    <string name="tle_detail_clock_skew">Download time is ahead of the device clock</string>
+    <string name="tle_detail_oldest_epoch">Oldest epoch %1$s</string>
+    <string name="tle_detail_downloaded">Downloaded %1$s · Oldest epoch %2$s</string>
+    <string name="tle_age_unknown">unknown</string>
+    <string name="tle_guidance_cached_offline">Cached predictions and alerts remain available offline.</string>
+    <string name="tle_guidance_current">Orbital data is current.</string>
+    <string name="tle_guidance_refresh">Refresh recommended. %1$s</string>
+    <string name="tle_guidance_accuracy">Refresh recommended; accuracy may be reduced. %1$s</string>
+
+    <string name="dashboard_data_summary">%1$d sats · %2$d selected · %3$s</string>
+    <string name="dashboard_data_summary_refreshing">%1$d sats · %2$d selected · %3$s · Refreshing</string>
+    <string name="dashboard_hero_needs_station">GPS, map, or manual locator</string>
+    <string name="dashboard_hero_active_now">Now · LOS now</string>
+    <string name="dashboard_hero_active_minutes">Now · LOS in %1$dm</string>
+    <string name="dashboard_hero_active_hours_minutes">Now · LOS in %1$dh %2$dm</string>
+    <string name="dashboard_hero_upcoming">%1$s · Max %2$s</string>
+    <string name="data_refreshing">Refreshing…</string>
+
+    <string name="qth_display_unset_primary">QTH not set</string>
+    <string name="qth_display_unset_secondary">No saved QTH · map center only</string>
+    <string name="qth_display_saved_secondary">%1$s · tap to edit</string>
+    <string name="qth_display_saved_description">QTH locator %1$s</string>
+    <string name="qth_request_already_running">Location request already running</string>
+    <string name="qth_request_waiting_for_fix">No GPS fix yet</string>
+    <string name="qth_gps_failure_title">Location timeout</string>
+
+    <string name="settings_summary_off">Off</string>
+    <string name="settings_summary_on">On</string>
+    <string name="settings_summary_at_aos">At AOS</string>
+    <string name="settings_summary_minutes">%1$d min</string>
+    <string name="settings_summary_degrees">%1$d°</string>
+    <string name="settings_summary_state_with_detail">%1$s · %2$s</string>
+    <string name="settings_radar_keep_screen_on">Radar keep screen on</string>
+    <string name="settings_radar_keep_screen_on_summary">Keep Radar awake</string>
+    <string name="settings_foreground_data_freshness">Foreground data freshness</string>
+    <string name="settings_foreground_data_freshness_summary">Refresh stale data while app is open</string>
+    <string name="settings_minimum_elevation_summary">Filter low passes</string>
+
+    <string name="pass_alert_status_notifications">Notifications</string>
+    <string name="pass_alert_status_exact_alarm">Exact alarm</string>
+    <string name="pass_alert_status_next_alert">Next alert</string>
+    <string name="pass_alert_status_permission_needed">Permission needed</string>
+    <string name="pass_alert_status_system_off">System off</string>
+    <string name="pass_alert_status_channel_off">Channel off</string>
+    <string name="pass_alert_status_ready">Ready</string>
+    <string name="pass_alert_status_inexact_fallback">Inexact fallback</string>
+    <string name="pass_alert_status_not_scheduled">No scheduled alert</string>
+    <string name="pass_alert_status_in_minutes">in %1$dm</string>
+
+    <string name="about_info_version">Version</string>
+    <string name="about_info_package">Package</string>
+    <string name="about_info_app">App</string>
+    <string name="about_info_data">Data</string>
+    <string name="about_info_maps">Maps</string>
+    <string name="about_info_location">Location</string>
+    <string name="about_info_license">License</string>
+    <string name="about_info_version_value">%1$s (%2$d)</string>
+    <string name="about_info_package_value" translatable="false">com.xianming.watch4sat</string>
+    <string name="about_info_app_value">Standalone Wear OS satellite pass tracker</string>
+    <string name="about_info_data_value">CelesTrak Amateur TLE and SatNOGS transmitters</string>
+    <string name="about_info_maps_value">OpenStreetMap contributors online tiles with Natural Earth offline fallback</string>
+    <string name="about_info_location_value">QTH/GPS station data stored on watch</string>
+    <string name="about_info_license_value">GPLv3-derived from Look4Sat; Gpredict reference only; Natural Earth public domain; Google Sans Flex OFL</string>
+
+    <string name="developer_action_trigger_pass_alert">Trigger pass alert</string>
+    <string name="developer_action_trigger_pass_notification">Trigger pass notification</string>
+    <string name="developer_action_trigger_calibration_hint">Trigger calibration hint</string>
+    <string name="developer_action_disable">Disable developer options</string>
+    <string name="developer_options_unlocked">Developer options</string>
+    <string name="developer_failure_no_pass">No pass</string>
+    <string name="developer_failure_notifications_off">Notifications off</string>
+
+    <string name="satellite_detail_catalog_number">#%1$d</string>
+    <string name="satellite_detail_header">%1$s · %2$s</string>
+    <string name="satellite_detail_selected">Selected</string>
+    <string name="satellite_detail_not_selected">Not selected</string>
+    <string name="satellite_detail_altitude">Altitude</string>
+    <string name="satellite_detail_period">Period</string>
+    <string name="satellite_detail_mean_motion">Mean motion</string>
+    <string name="satellite_detail_inclination">Inclination</string>
+    <string name="satellite_detail_eccentricity">Eccentricity</string>
+    <string name="satellite_detail_raan">RAAN</string>
+    <string name="satellite_detail_argument_of_perigee">Arg perigee</string>
+    <string name="satellite_detail_altitude_value">Mean %1$d km · Perigee %2$d km · Apogee %3$d km</string>
+    <string name="satellite_detail_period_value">%1$.1f m</string>
+    <string name="satellite_detail_mean_motion_value">%1$.3f rev/day</string>
+    <string name="satellite_detail_degrees_value">%1$.1f°</string>
+    <string name="satellite_detail_eccentricity_value">%1$.6f</string>
+    <string name="satellite_transmitter_active">active</string>
+    <string name="satellite_transmitter_inactive">inactive</string>
+    <string name="satellite_transmitter_inverted">Inverted</string>
+    <string name="satellite_transmitter_downlink">DL %1$s</string>
+    <string name="satellite_transmitter_uplink">UL %1$s</string>
+    <string name="satellite_transmitter_frequency_single">%1$.3f MHz</string>
+    <string name="satellite_transmitter_frequency_range">%1$.3f–%2$.3f MHz</string>
+    <string name="satellite_transmitter_frequency_with_mode">%1$s %2$s</string>
+</resources>

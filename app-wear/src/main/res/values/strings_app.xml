@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_track">Track</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_map">Map</string>
+    <string name="action_gps">GPS</string>
+    <string name="action_cancel_gps">Cancel GPS</string>
+    <string name="route_setup">Setup</string>
+    <string name="route_orbit_map">Orbit Map</string>
+    <string name="route_legal_document">Legal document</string>
+    <string name="route_satellite_detail">Satellite detail</string>
+    <string name="route_clear_selected">Clear selected</string>
+
+    <string name="dashboard_title">Watch4Sat</string>
+    <string name="dashboard_data_title">Data</string>
+    <string name="dashboard_set_qth">Set QTH</string>
+    <string name="dashboard_no_pass">No pass</string>
+    <string name="dashboard_qth_not_set">QTH not set</string>
+    <string name="dashboard_qth_unknown">QTH --</string>
+    <string name="dashboard_station_summary">%1$s · %2$s / %3$s</string>
+
+    <string name="passes_title">Passes · %1$dh</string>
+    <string name="passes_empty_title">No passes</string>
+    <string name="passes_set_qth_guidance">Set QTH with GPS, map, or manual locator</string>
+    <string name="passes_refresh_tle_guidance">Refresh TLE first</string>
+    <string name="passes_aos_los_label">AOS to LOS</string>
+    <string name="passes_tca_max_label">TCA · Max</string>
+    <string name="passes_azimuth_label">Az AOS to LOS</string>
+    <string name="passes_duration_label">Duration</string>
+    <string name="passes_countdown_max">%1$s · Max %2$s</string>
+
+    <string name="qth_title">QTH</string>
+    <string name="qth_edit_locator_title">Edit locator</string>
+    <string name="qth_picker_helper">A-R  A-R  0-9  0-9  A-X  A-X</string>
+    <string name="qth_character_description">QTH character %1$d</string>
+    <string name="qth_map_description">QTH map. Pan to choose a station location.</string>
+    <string name="qth_saved_station">Saved station</string>
+    <string name="qth_saved_station_with_locator">Saved %1$s</string>
+    <string name="map_osm_attribution">© OpenStreetMap contributors</string>
+    <string name="map_natural_earth_attribution">Natural Earth public domain</string>
+
+    <string name="tle_title">TLE</string>
+    <string name="tle_source_title">CelesTrak Amateur</string>
+    <string name="tle_cache_summary">%1$d cached · %2$s%3$s</string>
+    <string name="tle_freshness_title">TLE freshness</string>
+    <string name="tle_freshness_detail">%1$s. %2$s</string>
+    <string name="transmitters_title">SatNOGS transmitters</string>
+    <string name="transmitters_cache_summary">%1$d radios · %2$s%3$s</string>
+    <string name="state_title">State</string>
+
+    <string name="satellites_title">Satellites</string>
+    <string name="satellites_page_all">All</string>
+    <string name="satellites_page_selected">Selected</string>
+    <string name="satellites_selected_empty">No selected satellites</string>
+    <string name="satellites_all_summary">%1$d shown · %2$d selected</string>
+    <string name="satellites_selected_summary">%1$d selected shown</string>
+    <string name="satellites_results_title">Results</string>
+    <string name="satellites_starter_action">Starter</string>
+    <string name="satellites_no_cache">No cache</string>
+    <string name="satellites_no_match">No match</string>
+    <string name="satellites_use_all_guidance">Use All page to add satellites</string>
+    <string name="satellites_search_guidance">Try a name or catalog number</string>
+    <string name="satellites_clear_warning_description">Clear selected satellites warning</string>
+    <string name="satellites_clear_confirmation">Clear all selected satellites?\n%1$d selected satellites will be removed.</string>
+    <string name="satellite_title">Satellite</string>
+    <string name="satellite_empty_title">No satellite</string>
+    <string name="satellite_empty_guidance">Return to Satellites and open a row</string>
+    <string name="satellite_transmitters_title">Transmitters</string>
+    <string name="satellite_no_active_transmitters">No active TX data</string>
+    <plurals name="satellite_cached_transmitter_records">
+        <item quantity="one">%1$d cached SatNOGS record</item>
+        <item quantity="other">%1$d cached SatNOGS records</item>
+    </plurals>
+    <string name="satellite_search_description">Satellite search input</string>
+    <string name="satellite_search_hint">Search name or NORAD</string>
+    <string name="satellite_open_details_description">%1$s. Open satellite details</string>
+    <string name="satellite_select_description">Select satellite</string>
+    <string name="satellite_unselect_description">Unselect satellite</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_pass_window">Pass window</string>
+    <string name="settings_pass_alerts">Pass alerts</string>
+    <string name="settings_data_freshness">Data freshness</string>
+    <string name="settings_minimum_elevation">Minimum elevation</string>
+    <string name="settings_map_source">Map source</string>
+    <string name="settings_about">About</string>
+    <string name="settings_developer_options">Developer options</string>
+    <string name="settings_debug_tools">Debug tools</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_doppler">Doppler</string>
+    <string name="settings_doppler_summary">SatNOGS + custom-ready</string>
+    <string name="theme_system_color">System color</string>
+    <string name="theme_pixel_mint">Pixel mint</string>
+    <string name="theme_sky_blue">Sky blue</string>
+    <string name="theme_aurora_green">Aurora green</string>
+    <string name="theme_solar_yellow">Solar yellow</string>
+    <string name="theme_rose_coral">Rose coral</string>
+    <string name="map_tile_mode_auto">Auto</string>
+    <string name="map_tile_mode_osm_only">OSM only</string>
+    <string name="map_tile_mode_offline_world">Offline world</string>
+
+    <string name="pass_alerts_title">Pass alerts</string>
+    <string name="pass_alert_delivery_title">Delivery</string>
+    <string name="pass_alert_delivery_summary">One system alert per pass; in-app alert stays active while the app is open.</string>
+    <string name="data_freshness_title">Data freshness</string>
+    <string name="data_freshness_current_tle">Current TLE</string>
+    <string name="data_freshness_current_summary">%1$s · %2$s</string>
+    <string name="data_freshness_offline_use">Offline use</string>
+    <string name="data_freshness_foreground_only">Foreground only</string>
+    <string name="data_freshness_foreground_summary">Checks TLE after 24h and SatNOGS after 7d while Dashboard or Data is open.</string>
+    <string name="data_freshness_transmitters">Transmitters</string>
+    <string name="data_freshness_satnogs_age">SatNOGS %1$s</string>
+    <string name="minimum_elevation_title">Minimum elevation</string>
+    <string name="minimum_elevation_value">%1$d°</string>
+    <string name="minimum_elevation_planning_title">Pass planning</string>
+    <string name="minimum_elevation_planning_summary">Applies to app pass lists, Tile fallback, and notification resolver.</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="map_source_title">Map source</string>
+    <string name="about_title">About</string>
+    <string name="developer_options_title">Developer options</string>
+
+    <string name="pass_window_title">Pass window</string>
+    <string name="unit_hours_short">hr</string>
+    <string name="pass_window_hours">%1$d hours</string>
+    <string name="pass_window_adjuster_description">Pass window adjuster, %1$d hours</string>
+    <string name="pass_window_decrease_description">Decrease pass window</string>
+    <string name="pass_window_increase_description">Increase pass window</string>
+
+    <string name="refresh_failure_timeout">Network timeout</string>
+    <string name="refresh_success_title">TLE updated</string>
+    <string name="refresh_failure_no_network">Network unavailable</string>
+    <string name="refresh_failure_api">API failed</string>
+    <string name="refresh_failure_parse">Parse failed</string>
+    <string name="refresh_failure_unknown">Update failed</string>
+    <string name="pass_no_longer_available">Pass no longer available</string>
+    <string name="pass_countdown_before">AOS in %1$s · TCA %2$s</string>
+    <string name="pass_countdown_active">LOS in %1$s · TCA %2$s</string>
+    <string name="pass_countdown_ended">Ended %1$s</string>
+    <string name="duration_hours_minutes_short">%1$dh %2$dm</string>
+    <string name="duration_clock_short">%1$02d:%2$02d</string>
+    <string name="pass_card_countdown_now">now</string>
+    <string name="pass_card_countdown_active">NOW</string>
+    <plurals name="pass_card_countdown_minutes">
+        <item quantity="one">in %1$dm</item>
+        <item quantity="other">in %1$dm</item>
+    </plurals>
+    <plurals name="pass_card_countdown_hours_minutes">
+        <item quantity="one">in %1$dh %2$dm</item>
+        <item quantity="other">in %1$dh %2$dm</item>
+    </plurals>
+    <plurals name="pass_card_duration_minutes">
+        <item quantity="one">%1$dm</item>
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="pass_card_duration_hours_minutes">
+        <item quantity="one">%1$dh %2$dm</item>
+        <item quantity="other">%1$dh %2$dm</item>
+    </plurals>
+    <string name="pass_card_degrees">%1$d°</string>
+    <string name="pass_card_frequency_downlink">%1$.3f MHz DL</string>
+    <string name="pass_card_frequency_uplink">%1$.3f MHz UL</string>
+    <string name="pass_card_frequency_separator">" / "</string>
+    <string name="pass_card_mode_with_frequencies">%1$s %2$s</string>
+
+    <string name="relative_age_never">never</string>
+    <string name="relative_age_clock_error">check device time</string>
+    <string name="relative_age_now">just now</string>
+    <string name="relative_age_minutes">%1$dm ago</string>
+    <string name="relative_age_hours">%1$dh ago</string>
+    <string name="relative_age_days">%1$dd ago</string>
+    <string name="error_suffix"> · last refresh failed</string>
+</resources>

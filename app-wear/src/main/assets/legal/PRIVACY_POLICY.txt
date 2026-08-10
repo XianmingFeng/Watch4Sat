@@ -1,0 +1,79 @@
+Watch4Sat Privacy Policy
+Effective date: 2026-07-31
+
+Watch4Sat is an English-only, standalone Wear OS satellite pass tracker. It has
+no accounts, ads, analytics, marketing SDK, developer-operated backend, or
+cloud sync. It does not sell personal data.
+
+LOCATION
+
+Watch4Sat needs a station location (QTH) for pass, pointing, distance, Doppler,
+map, and alert functions. You can enter a location, choose a map point, or
+explicitly request the watch's location. GPS prefers Google Play services
+Fused Location Provider and falls back to Android framework providers when
+fused location is unavailable or does not return an acceptable fix. The app
+does not request background location. An accepted station location and
+coordinate-derived pass snapshots are stored locally on the watch.
+
+Watch4Sat does not send saved coordinates to a Watch4Sat server. Google Play
+services and Android may process location as part of providing a requested fix
+under their own privacy policies.
+
+NETWORK SERVICES
+
+The watch contacts CelesTrak for orbital elements, SatNOGS DB for transmitter
+metadata, and OpenStreetMap for online map tiles. Providers can receive the
+network address, request time, URL, and Watch4Sat User-Agent.
+
+OpenStreetMap tile URLs contain zoom and tile coordinates. They reveal the
+approximate viewed area and can reveal the approximate area of a saved or
+viewed QTH. Normal tiles may be cached locally. Watch4Sat does not bulk-download
+OSM tiles. Offline world maps use a packaged Natural Earth asset and make no
+map-network request.
+
+LOCAL DATA
+
+The watch stores the station, settings, selected satellites, cached public
+orbital and transmitter records, refresh metadata, pass snapshots, alert
+state, notification/alarm configuration, and ordinary OSM tile cache.
+Notification surfaces can show satellite names, pass times, and alert details.
+
+Cloud backup and device-to-device transfer are disabled for all app data.
+
+DIAGNOSTICS
+
+Watch4Sat has no remote crash reporter or analytics. Local Android system logs
+can contain location-provider names, timing, fix age, accuracy, and result
+state. Watch4Sat intentionally excludes latitude and longitude from these logs.
+
+DELETION
+
+The in-app clear-location action removes station fields, coordinate-derived
+pass snapshots, pass-alert state, scheduled pass alarms, and derived in-memory
+station/pass state. It does not remove public satellite/transmitter caches,
+other settings, or ordinary OSM cache.
+
+Use Wear OS application settings to clear Watch4Sat storage, or uninstall the
+app, to delete all Watch4Sat data on the watch. There is no server account to
+delete.
+
+PERMISSIONS
+
+Location is used after an explicit location action. Notifications and exact
+alarms support enabled pass alerts. Network access supports data refresh and
+online maps. Boot completion restores applicable local alert scheduling.
+
+PROVIDERS
+
+CelesTrak: https://celestrak.org/
+SatNOGS DB: https://db.satnogs.org/
+OpenStreetMap: https://www.openstreetmap.org/copyright
+Google privacy policy: https://policies.google.com/privacy
+
+Watch4Sat is a technical utility and is not directed to children.
+
+Release contact: ba7lvg@foxmail.com
+
+A stable public HTTPS copy of this policy will be published before the first
+public release-candidate distribution. Until then, the policy packaged in the
+application is the maintained user-facing copy.

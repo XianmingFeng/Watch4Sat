@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_status_offline_world">Offline world</string>
+    <string name="map_status_osm_loaded">OSM loaded</string>
+    <string name="map_status_osm_unavailable_offline">OSM unavailable · offline map</string>
+    <string name="map_status_loading_osm">Loading OSM</string>
+    <string name="map_status_no_validated_network">No validated network</string>
+    <string name="map_status_osm_unavailable">OSM unavailable</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_station">Station</string>
+</resources>

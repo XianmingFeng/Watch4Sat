@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_run_progress">SETUP %1$d / %2$d</string>
+    <string name="first_run_continue">Continue</string>
+    <string name="first_run_skip">Skip</string>
+
+    <string name="first_run_welcome_title">Ready for your first pass</string>
+
+    <string name="first_run_tle_subtitle">Download orbit data for tracking</string>
+    <string name="first_run_tle_data_ready">Data ready</string>
+    <string name="first_run_tle_update_failed">Update failed</string>
+    <string name="first_run_tle_updating">Updating data</string>
+    <string name="first_run_skipped">Skipped</string>
+    <string name="first_run_tle_retry_or_skip">Try again or skip for now.</string>
+    <string name="first_run_tle_update_later">You can update later from Data.</string>
+    <string name="first_run_retry">Retry</string>
+    <string name="first_run_update">Update</string>
+
+    <string name="first_run_qth_title">Choose QTH</string>
+    <string name="first_run_qth_location_saved">Location saved</string>
+    <string name="first_run_qth_not_set">No QTH set</string>
+    <string name="first_run_qth_skip_for_now">Skip for now</string>
+
+    <string name="first_run_satellites_title">Satellites</string>
+    <plurals name="first_run_satellites_selected">
+        <item quantity="one">%1$d satellite selected</item>
+        <item quantity="other">%1$d satellites selected</item>
+    </plurals>
+    <string name="first_run_satellites_back_to_setup">Back to satellite setup</string>
+    <string name="first_run_satellites_select_to_track">Select satellites to track</string>
+    <string name="first_run_satellites_no_data">No satellite data</string>
+    <string name="first_run_satellites_no_data_guidance">Update TLE first, or skip and select satellites later.</string>
+    <string name="first_run_satellites_use_starter_picks">Use starter picks</string>
+    <string name="first_run_satellites_pick_myself">Pick by myself</string>
+    <string name="first_run_satellite_select">Select satellite</string>
+    <string name="first_run_satellite_unselect">Unselect satellite</string>
+    <string name="first_run_satellite_catalog_number">#%1$d</string>
+
+    <string name="first_run_alerts_title">Enable pass alerts</string>
+    <string name="first_run_alerts_ready">Alerts ready</string>
+    <string name="first_run_notifications">Notifications</string>
+    <string name="first_run_alerts_ready_summary">Watch4Sat can notify you before selected passes.</string>
+    <string name="first_run_alerts_enable_summary">Get notified before selected passes.</string>
+    <string name="first_run_enable">Enable</string>
+    <string name="first_run_alarm_precision">Alarm precision</string>
+    <string name="first_run_alarm_precision_summary">Optional · open system settings for precise alerts</string>
+    <string name="first_run_alarm_settings">Alarm settings</string>
+    <string name="first_run_alerts_skip">Skip alerts</string>
+
+    <string name="first_run_finish_title">Ready to track</string>
+    <string name="first_run_finish_enter_app">Enter app</string>
+</resources>

@@ -1,0 +1,37 @@
+Watch4Sat Offline Legal Documents
+Reviewed 2026-07-31
+
+PRIVACY_POLICY.txt
+  Watch4Sat privacy policy supplied with this build.
+
+NOTICES.txt
+  Project copyright, source-code association, upstream attribution,
+  data-source notices, font notice, and release contact.
+
+GPL-3.0.txt
+  GNU General Public License version 3. Watch4Sat and its Look4Sat-derived
+  portions are offered under GPL-3.0-or-later.
+
+OFL-1.1-GOOGLE-SANS-FLEX.txt
+  Complete SIL Open Font License 1.1 and Google Sans Flex copyright notice.
+
+ODBL-1.0.txt
+  Complete Open Data Commons Open Database License 1.0 for OpenStreetMap data.
+
+CC-BY-SA-4.0.txt
+  Complete Creative Commons Attribution-ShareAlike 4.0 International license
+  for SatNOGS DB transmitter data.
+
+DEPENDENCY-LICENSES.md
+  Generated release runtime dependency inventory, including exact module
+  versions and normalized SPDX license identities.
+
+APACHE-2.0.txt
+  Complete Apache License 2.0 used by the listed runtime dependencies.
+
+BSD-3-CLAUSE.txt
+  Complete BSD 3-Clause License used by the listed external protobuf runtime
+  dependencies.
+
+These documents provide offline access. Current source and provider pages are
+also listed in NOTICES.txt.

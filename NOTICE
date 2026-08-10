@@ -1,0 +1,84 @@
+Watch4Sat
+Copyright (C) 2026 Xianming Feng and Watch4Sat contributors
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Watch4Sat is free software licensed under the GNU General Public License,
+version 3 or, at your option, any later version. The complete GPL version 3
+text is in LICENSE.
+
+NO WARRANTY
+
+Watch4Sat is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for details.
+
+SOURCE CODE ASSOCIATION
+
+Every distributed binary must be accompanied by a release manifest that
+identifies the release version, Android versionCode, application ID, exact
+source commit, recipient-accessible corresponding-source location, and
+SHA-256 digests for the APK, AAB, and source archive. Generate that manifest
+after all artifacts exist and distribute it beside the binary and source
+archive.
+
+Do not embed an artifact's own digest in that artifact. A private Git
+repository that release recipients cannot access is not a
+recipient-accessible corresponding-source location. The release record must
+either provide corresponding source through the same distribution channel or
+use another GPL-compliant source-delivery method.
+
+UPSTREAM SOFTWARE
+
+Look4Sat
+Copyright (C) 2019-2026 Arty Bishop and contributors.
+Watch4Sat contains and adapts GPL-3.0-or-later code from Look4Sat v4.4.0,
+upstream commit 39b786ae82bfab5cdc86a308c6bd4a684acf9cdd:
+https://github.com/rt-bishop/Look4Sat
+Exact file-level association is recorded in docs/licenses/LOOK4SAT-UPSTREAM.md.
+
+Gpredict was reviewed as a reference for a general satellite-footprint
+approach. No Gpredict source was copied, translated, or ported. The reference
+boundary is recorded in docs/licenses/FOOTPRINT-REFERENCES.md.
+
+MAPS AND DATA
+
+OpenStreetMap map data and standard raster tiles:
+Copyright OpenStreetMap contributors.
+OpenStreetMap data is available under the Open Database License 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+SatNOGS transmitter metadata:
+Copyright SatNOGS DB contributors.
+Available under Creative Commons Attribution-ShareAlike 4.0 International.
+https://db.satnogs.org/
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Natural Earth 1:110m land geometry:
+Natural Earth data is public domain. Packaged data is identified in
+docs/licenses/NATURAL-EARTH.md.
+https://www.naturalearthdata.com/about/terms-of-use/
+
+CelesTrak GP orbital elements are downloaded at runtime and are not bundled in
+the release APK. Watch4Sat does not claim an unverified right to redistribute
+CelesTrak datasets. See docs/licenses/CELESTRAK.md.
+https://celestrak.org/
+
+FONT
+
+Google Sans Flex
+Copyright 2015 Google LLC. All Rights Reserved.
+Licensed under the SIL Open Font License, Version 1.1.
+The complete license is in docs/licenses/GOOGLE-SANS-FLEX-OFL-1.1.txt.
+
+DEPENDENCIES
+
+AndroidX, Kotlin, OkHttp, Room, osmdroid, kotlinx.serialization, and other
+packaged dependencies retain their respective copyright notices and licenses.
+The generated release runtime inventory is committed at
+docs/licenses/DEPENDENCY-LICENSES.md, with machine-readable data at
+docs/licenses/dependency-licenses.json. Complete Apache-2.0 and BSD-3-Clause
+texts are stored beside that inventory and are packaged for offline access in
+the application.
+
+Terms and source pages above were reviewed on 2026-07-31.

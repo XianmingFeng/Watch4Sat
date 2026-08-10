@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vm_set_qth_for_passes">Set QTH to calculate passes</string>
+    <string name="vm_refresh_failed">Refresh failed</string>
+    <string name="vm_refresh_complete">Saved %1$d TLE / %2$d TX</string>
+    <string name="vm_refresh_partial_tle_saved">Saved %1$d TLE; TX refresh failed</string>
+    <string name="vm_refresh_partial_tx_saved">Saved %1$d TX; TLE refresh failed</string>
+    <string name="vm_refreshing_with_reason">Refreshing… %1$s</string>
+    <string name="vm_location_canceled">Location canceled</string>
+    <string name="vm_location_permission_needed">Location permission needed</string>
+    <string name="vm_invalid_qth">Invalid QTH</string>
+    <string name="vm_qth_unchanged">QTH unchanged</string>
+    <string name="vm_saved_qth">Saved %1$s</string>
+    <string name="vm_map_saved">Map saved %1$s</string>
+    <string name="vm_coordinates">coordinates</string>
+    <string name="vm_saved_location_cleared">Saved location cleared</string>
+    <string name="vm_clear_location_failed">Could not clear saved location</string>
+    <string name="vm_complete_setup_first">Complete required setup steps first.</string>
+    <string name="vm_finish_setup_failed">Could not finish setup.</string>
+    <string name="vm_pass_calculation_failed">Pass calculation failed</string>
+    <string name="vm_refresh_tle_select_satellites">Refresh TLE and select satellites</string>
+    <string name="vm_updating_passes">Updating passes…</string>
+    <string name="vm_calculated_pass_hours">Calculated %1$dh of %2$dh</string>
+    <string name="vm_passes_ready">Passes ready</string>
+    <string name="vm_refresh_tle_first">Refresh TLE first</string>
+    <string name="vm_select_satellite">Select satellite</string>
+    <string name="vm_loading_satellite">Loading %1$s</string>
+    <string name="vm_loading_catalog">Loading #%1$d</string>
+    <string name="vm_updated_satellite">Updated %1$s</string>
+    <string name="vm_orbit_map_unavailable">Orbit map unavailable</string>
+    <string name="vm_orbit_details_unavailable">Orbit details unavailable</string>
+    <string name="vm_location_unavailable">Location unavailable</string>
+    <string name="vm_no_location_fix">No location fix yet</string>
+    <string name="vm_no_fresh_location_fix">No fresh location fix</string>
+    <string name="vm_location_accuracy_low">Location accuracy too low</string>
+    <string name="vm_location_timeout">Location timeout · keep watch facing open sky</string>
+    <string name="vm_location_saved">Location saved</string>
+    <string name="vm_location_error">Location error</string>
+    <string name="vm_location_source_gps">GPS</string>
+    <string name="vm_location_source_network">Network</string>
+    <string name="vm_location_source_fused">Fused</string>
+    <string name="vm_location_source_generic">Location</string>
+    <string name="vm_location_with_locator">%1$s %2$s</string>
+    <string name="vm_ready">Ready</string>
+    <string name="vm_set_qth">Set QTH</string>
+</resources>

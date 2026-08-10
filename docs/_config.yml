@@ -1,0 +1,6 @@
+title: Watch4Sat
+description: Public project information, privacy policy, and release source archives for Watch4Sat.
+url: "https://xianmingfeng.github.io"
+baseurl: "/Watch4Sat"
+theme: minima
+markdown: kramdown

@@ -1,0 +1,30 @@
+{
+  "allowedLicenses": [
+    {
+      "moduleLicense": "Apache-2.0"
+    },
+    {
+      "moduleLicense": "BSD-3-Clause"
+    },
+    {
+      "moduleName": "com.google.android.gms:play-services-base",
+      "moduleVersion": "18.5.0",
+      "moduleLicense": "Android Software Development Kit License"
+    },
+    {
+      "moduleName": "com.google.android.gms:play-services-basement",
+      "moduleVersion": "18.4.0",
+      "moduleLicense": "Android Software Development Kit License"
+    },
+    {
+      "moduleName": "com.google.android.gms:play-services-location",
+      "moduleVersion": "21.3.0",
+      "moduleLicense": "Android Software Development Kit License"
+    },
+    {
+      "moduleName": "com.google.android.gms:play-services-tasks",
+      "moduleVersion": "18.2.0",
+      "moduleLicense": "Android Software Development Kit License"
+    }
+  ]
+}

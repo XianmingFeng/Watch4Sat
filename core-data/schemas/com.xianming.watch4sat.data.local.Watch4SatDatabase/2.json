@@ -1,0 +1,227 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "dfa55a8368f70c8ff9a58af90ae2c9c5",
+    "entities": [
+      {
+        "tableName": "satellites",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`catalogNumber` INTEGER NOT NULL, `displayName` TEXT NOT NULL, `objectId` TEXT, `orbitalName` TEXT NOT NULL, `epoch` REAL NOT NULL, `meanMotion` REAL NOT NULL, `eccentricity` REAL NOT NULL, `inclinationDegrees` REAL NOT NULL, `rightAscensionAscendingNodeDegrees` REAL NOT NULL, `argumentOfPerigeeDegrees` REAL NOT NULL, `meanAnomalyDegrees` REAL NOT NULL, `bstar` REAL NOT NULL, `meanMotionDot` REAL NOT NULL, PRIMARY KEY(`catalogNumber`))",
+        "fields": [
+          {
+            "fieldPath": "catalogNumber",
+            "columnName": "catalogNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "displayName",
+            "columnName": "displayName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "objectId",
+            "columnName": "objectId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "orbitalName",
+            "columnName": "orbitalName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epoch",
+            "columnName": "epoch",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meanMotion",
+            "columnName": "meanMotion",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eccentricity",
+            "columnName": "eccentricity",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "inclinationDegrees",
+            "columnName": "inclinationDegrees",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rightAscensionAscendingNodeDegrees",
+            "columnName": "rightAscensionAscendingNodeDegrees",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "argumentOfPerigeeDegrees",
+            "columnName": "argumentOfPerigeeDegrees",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meanAnomalyDegrees",
+            "columnName": "meanAnomalyDegrees",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bstar",
+            "columnName": "bstar",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meanMotionDot",
+            "columnName": "meanMotionDot",
+            "affinity": "REAL",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "catalogNumber"
+          ]
+        }
+      },
+      {
+        "tableName": "satellite_dataset",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`singletonId` INTEGER NOT NULL, `datasetGeneration` INTEGER NOT NULL, `normalizedContentSha256` TEXT NOT NULL, `retrievedAtMillis` INTEGER NOT NULL, `acceptedRecordCount` INTEGER NOT NULL, `sourceIdentity` TEXT NOT NULL, PRIMARY KEY(`singletonId`))",
+        "fields": [
+          {
+            "fieldPath": "singletonId",
+            "columnName": "singletonId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "datasetGeneration",
+            "columnName": "datasetGeneration",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "normalizedContentSha256",
+            "columnName": "normalizedContentSha256",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "retrievedAtMillis",
+            "columnName": "retrievedAtMillis",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "acceptedRecordCount",
+            "columnName": "acceptedRecordCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sourceIdentity",
+            "columnName": "sourceIdentity",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "singletonId"
+          ]
+        }
+      },
+      {
+        "tableName": "transmitters",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uuid` TEXT NOT NULL, `catalogNumber` INTEGER, `description` TEXT NOT NULL, `isAlive` INTEGER NOT NULL, `status` TEXT NOT NULL, `downlinkLowHz` INTEGER, `downlinkHighHz` INTEGER, `downlinkMode` TEXT, `uplinkLowHz` INTEGER, `uplinkHighHz` INTEGER, `uplinkMode` TEXT, `isInverted` INTEGER NOT NULL, PRIMARY KEY(`uuid`))",
+        "fields": [
+          {
+            "fieldPath": "uuid",
+            "columnName": "uuid",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "catalogNumber",
+            "columnName": "catalogNumber",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isAlive",
+            "columnName": "isAlive",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "downlinkLowHz",
+            "columnName": "downlinkLowHz",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "downlinkHighHz",
+            "columnName": "downlinkHighHz",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "downlinkMode",
+            "columnName": "downlinkMode",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "uplinkLowHz",
+            "columnName": "uplinkLowHz",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "uplinkHighHz",
+            "columnName": "uplinkHighHz",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "uplinkMode",
+            "columnName": "uplinkMode",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isInverted",
+            "columnName": "isInverted",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "uuid"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'dfa55a8368f70c8ff9a58af90ae2c9c5')"
+    ]
+  }
+}
