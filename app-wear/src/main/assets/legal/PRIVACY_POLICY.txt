@@ -74,6 +74,6 @@ Watch4Sat is a technical utility and is not directed to children.
 
 Release contact: ba7lvg@foxmail.com
 
-A stable public HTTPS copy of this policy will be published before the first
-public release-candidate distribution. Until then, the policy packaged in the
-application is the maintained user-facing copy.
+A stable public HTTPS copy of this policy is available at:
+https://xianmingfeng.github.io/Watch4Sat/privacy/. This page, the repository
+copy, and the policy packaged in the application are the maintained sources.

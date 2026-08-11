@@ -1,8 +1,10 @@
-status: PRE_RELEASE_ACCEPTED_SOURCE
-source_label: R2
-private_accepted_source_commit: 39123087e203bdef43060d5da5bc42765b52f646
-version_name: 0.19.3
-version_code: 128
-archive: Watch4Sat-accepted-source-39123087.tar.gz
-archive_sha256: 5e07db9682b035752ea9782082456ff059de8a23f5f10c425caddbc5b3a653c4
-supersession: The final 1.0.0-rc.1 / 129 source will replace or supersede this accepted-source archive before binary distribution.
+schema_version: 1
+status: RELEASE_CANDIDATE_SOURCE
+source_commit: f0e8061f3e9a9d65a8cf7ea960ebd125acbd2161
+version_name: 1.0.0-rc.1
+version_code: 129
+archive: Watch4Sat-1.0.0-rc.1-source.tar.gz
+archive_bytes: 2646345
+archive_sha256: ef38263800035c01d88dae49182d6592e0ef287b50f65cfbf25d319fbab5bb0a
+archive_prefix: Watch4Sat-1.0.0-rc.1/
+canonical_source_url: https://xianmingfeng.github.io/Watch4Sat/source/1.0.0-rc.1/

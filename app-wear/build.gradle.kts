@@ -19,8 +19,8 @@ android {
         applicationId = "com.xianming.watch4sat"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 128
-        versionName = "0.19.3"
+        versionCode = 129
+        versionName = "1.0.0-rc.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

@@ -125,6 +125,6 @@ with the application.
 
 Release contact: ba7lvg@foxmail.com
 
-A stable public HTTPS copy of this policy will be published before the first
-public release-candidate distribution. Until then, this repository copy and the
-policy packaged in the application are the maintained sources.
+A stable public HTTPS copy of this policy is available at:
+https://xianmingfeng.github.io/Watch4Sat/privacy/. This page, the repository
+copy, and the policy packaged in the application are the maintained sources.

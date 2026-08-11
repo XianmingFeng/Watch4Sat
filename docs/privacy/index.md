@@ -130,6 +130,6 @@ with the application.
 
 Release contact: ba7lvg@foxmail.com
 
-The canonical public HTTPS copy of this policy is
-https://xianmingfeng.github.io/Watch4Sat/privacy/. This page and the policy
-packaged in the application are the maintained copies.
+A stable public HTTPS copy of this policy is available at:
+https://xianmingfeng.github.io/Watch4Sat/privacy/. This page, the repository
+copy, and the policy packaged in the application are the maintained sources.

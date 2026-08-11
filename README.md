@@ -4,7 +4,7 @@ Watch4Sat is a standalone satellite pass tracker for Wear OS. It puts pass
 predictions, a wrist-guided radar, ground tracks, radio data, and the next pass
 Tile directly on a round watch without requiring a phone companion.
 
-Current version: **0.19.3** (`versionCode 128`)
+Current source version: **1.0.0-rc.1** (`versionCode 129`)
 
 <p align="center">
   <img src="app-wear/src/main/res/drawable-nodpi/tile_preview_next_pass.png" width="280" alt="Watch4Sat next pass Tile preview">
@@ -31,10 +31,11 @@ Current version: **0.19.3** (`versionCode 128`)
 - Network access for orbital and transmitter data refresh
 - Location permission only when using GPS-based ground-station setup
 
-Watch4Sat is currently distributed as a sideload-oriented project. Repository
-release builds are minified, non-debuggable, and unsigned. Official APK and AAB
-signing is performed only by the maintainer's repository-external release
-process; ordinary repository builds are not Play Store production artifacts.
+Watch4Sat is currently at an immutable RC source checkpoint. No signed
+`1.0.0-rc.1` APK or AAB has been produced or published yet. Repository release
+builds are minified, non-debuggable, and unsigned. Official APK and AAB signing
+is performed only by the maintainer's repository-external release process;
+ordinary repository builds are not Play Store production artifacts.
 
 ## Build
 
