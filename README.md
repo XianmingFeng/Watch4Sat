@@ -16,9 +16,11 @@ companion.
 </p>
 
 > [!IMPORTANT]
-> This repository currently represents the `1.0.0-rc.1` source checkpoint.
-> Signed APK and AAB artifacts have not been published yet. Repository release
-> builds are minified, non-debuggable, and unsigned validation artifacts.
+> This repository contains the source for Watch4Sat `1.0.0-rc.1`
+> (`versionCode 129`). Download the signed Wear OS APK from the
+> [`v1.0.0-rc.1` GitHub release](https://github.com/XianmingFeng/Watch4Sat/releases/tag/v1.0.0-rc.1)
+> and verify its SHA-256 checksum against the release notes. The AAB is reserved
+> for Google Play distribution and is not a sideload package.
 
 ## Overview
 
