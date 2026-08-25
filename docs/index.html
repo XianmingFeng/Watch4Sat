@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watch4Sat is a standalone Wear OS satellite pass tracker with live Radar guidance, Orbit Map, radio data, alerts, and a next-pass Tile.">
+  <meta name="theme-color" content="#f8f9fa">
+  <title>Watch4Sat - Satellite tracking on Wear OS</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-width">
+      <a class="wordmark" href="./" aria-label="Watch4Sat home">Watch4Sat</a>
+      <nav class="nav-links" aria-label="Project links">
+        <a href="#journey">Product</a>
+        <a href="source/1.0.0-rc.1/">Source archive</a>
+        <a href="privacy/">Privacy</a>
+        <a href="https://github.com/XianmingFeng/Watch4Sat">GitHub</a>
+      </nav>
+      <a class="header-github" href="https://github.com/XianmingFeng/Watch4Sat">GitHub</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="site-width google-hero">
+      <div class="google-hero-copy">
+        <p class="rc-label">1.0.0-rc.1 · open-source checkpoint</p>
+        <h1>Watch4Sat</h1>
+        <p class="hero-copy">Plan satellite passes, point with live Radar guidance, and follow ground tracks from a standalone Wear OS watch.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#journey">Explore the pass</a>
+          <a class="button" href="https://github.com/XianmingFeng/Watch4Sat">Browse source</a>
+        </div>
+        <p class="release-note">Signed APK and AAB are not published yet.</p>
+      </div>
+      <div class="watch-stage" aria-label="Real Pixel Watch 4 release screenshots in original watch mockups">
+        <figure class="device big"><img class="angle-watch-mockup" src="assets/watch4sat-mockup-dashboard-angle.png" alt="Watch4Sat Dashboard release capture in an angled coral-pink watch mockup"></figure>
+        <figure class="device small top"><img class="angle-watch-mockup" src="assets/watch4sat-mockup-orbit-angle.png" alt="Watch4Sat Orbit Map release capture in an angled mint-green watch mockup"></figure>
+        <figure class="device small bottom"><img class="angle-watch-mockup" src="assets/watch4sat-mockup-radar-angle.png" alt="Watch4Sat Radar release capture in an angled sky-blue watch mockup"></figure>
+      </div>
+    </section>
+
+    <section class="site-width phase-rail" aria-label="Pass workflow">
+      <div class="phase-item"><strong>AOS</strong><span>See what rises next.</span></div>
+      <div class="phase-item"><strong>TCA</strong><span>Point and follow live.</span></div>
+      <div class="phase-item"><strong>LOS</strong><span>Prepare for the next pass.</span></div>
+    </section>
+
+    <section class="feature-band blue" id="journey">
+      <div class="site-width feature-layout">
+        <div class="feature-copy">
+          <p class="section-label">AOS · At a glance</p>
+          <h2>Know what rises next.</h2>
+          <p class="body-copy">Dashboard and pass planning put time-to-rise, maximum elevation, and the full AOS-to-LOS window on your wrist.</p>
+        </div>
+        <div class="device-row">
+          <div class="device"><div class="watch-mockup"><div class="watch-mockup-screen"><img src="assets/dashboard.png" alt="Dashboard captured from Pixel Watch 4"></div><img class="watch-mockup-frame" src="assets/watch4sat-watch-frame-coral-long.png" alt=""></div></div>
+          <div class="device"><div class="watch-mockup"><div class="watch-mockup-screen"><img src="assets/pass-detail.png" alt="Pass details captured from Pixel Watch 4"></div><img class="watch-mockup-frame" src="assets/watch4sat-watch-frame-mint-long.png" alt=""></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band green">
+      <div class="site-width feature-layout reverse">
+        <div class="feature-copy">
+          <p class="section-label">TCA · Live guidance</p>
+          <h2>Point with the watch.</h2>
+          <p class="body-copy">Wrist-aware Radar translates azimuth and elevation into a direct, full-screen guide, with north-reference and pointing-assist modes.</p>
+        </div>
+        <div class="video-device">
+          <div class="device"><div class="watch-mockup"><div class="watch-mockup-screen"><video src="assets/pixel-watch-4-radar-mode-release.mp4" poster="assets/radar.png" muted loop playsinline preload="metadata" autoplay data-scroll-play aria-label="Radar mode switch recording captured from Pixel Watch 4"></video></div><img class="watch-mockup-frame" src="assets/watch4sat-watch-frame-blue-long.png" alt=""></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band warm">
+      <div class="site-width feature-layout">
+        <div class="feature-copy">
+          <p class="section-label">LOS · Ground track</p>
+          <h2>Follow the orbit.</h2>
+          <p class="body-copy">Switch satellites smoothly, inspect footprint and track, then open live altitude, distance, and current-position details.</p>
+        </div>
+        <div class="device-row">
+          <div class="device"><div class="watch-mockup"><div class="watch-mockup-screen"><img src="assets/orbit-map.png" alt="Orbit Map captured from Pixel Watch 4"></div><img class="watch-mockup-frame" src="assets/watch4sat-watch-frame-mint-long.png" alt=""></div></div>
+          <div class="device"><div class="watch-mockup"><div class="watch-mockup-screen"><img src="assets/orbit-detail.png" alt="Orbit details captured from Pixel Watch 4"></div><img class="watch-mockup-frame" src="assets/watch4sat-watch-frame-coral-long.png" alt=""></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="source-cta" id="source">
+      <div class="site-width source-cta-layout">
+        <div class="source-cta-copy">
+          <p class="section-label">Open source · Built for Wear OS</p>
+          <h2>Keep satellite tracking within reach.</h2>
+          <p class="body-copy">Watch4Sat is free software for standalone Wear OS watches. Explore the source, follow releases, and review exactly how the app handles your data.</p>
+        </div>
+        <div class="source-cta-actions">
+          <a class="button primary" href="https://github.com/XianmingFeng/Watch4Sat">View on GitHub</a>
+          <a class="button" href="privacy/">Privacy policy</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-width">
+      Data and attribution:
+      <a href="https://celestrak.org/">CelesTrak</a> ·
+      <a href="https://satnogs.org/">SatNOGS</a> ·
+      <a href="https://www.openstreetmap.org/">OpenStreetMap</a> ·
+      <a href="https://www.naturalearthdata.com/">Natural Earth</a> ·
+      <a href="https://github.com/rt-bishop/Look4Sat">Look4Sat</a>
+    </div>
+  </footer>
+
+  <script>
+    const scrollPlayVideo = document.querySelector("[data-scroll-play]");
+
+    if (scrollPlayVideo) {
+      let isVideoVisible = false;
+
+      const syncVideoPlayback = () => {
+        if (isVideoVisible && !document.hidden) {
+          scrollPlayVideo.play().catch(() => {});
+        } else {
+          scrollPlayVideo.pause();
+        }
+      };
+
+      new IntersectionObserver(
+        ([entry]) => {
+          isVideoVisible = entry.isIntersecting && entry.intersectionRatio >= 0.55;
+          syncVideoPlayback();
+        },
+        { threshold: [0, 0.55] },
+      ).observe(scrollPlayVideo);
+
+      document.addEventListener("visibilitychange", syncVideoPlayback);
+    }
+  </script>
+</body>
+</html>
